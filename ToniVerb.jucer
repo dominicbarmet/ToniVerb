@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="SDrG5B" name="ToniVerb" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginChannelConfigs="{2 , 2}" pluginFormats="buildAAX,buildAU,buildStandalone,buildVST3">
+  <MAINGROUP id="ZEmehg" name="ToniVerb">
+    <GROUP id="{BD163F77-219F-7A2C-1FBF-0A556CC25E74}" name="Source">
+      <FILE id="BV6gnk" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="N3a5JH" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="FVDf2K" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="aPfC3T" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{D12EB915-7B3D-792F-38E3-52791AEFB6DA}" name="Components">
+      <FILE id="NyTC9j" name="Documentation.h" compile="0" resource="0" file="Components/Documentation.h"/>
+      <FILE id="kpcXvN" name="HorizontalMeter.h" compile="0" resource="0"
+            file="Components/HorizontalMeter.h"/>
+      <FILE id="Sa5qro" name="PeakLamp.h" compile="0" resource="0" file="Components/PeakLamp.h"/>
+      <FILE id="e8VOQy" name="ProgramDisplay.h" compile="0" resource="0"
+            file="Components/ProgramDisplay.h"/>
+      <FILE id="FHfUfr" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/CustomLookAndFeel.cpp"/>
+      <FILE id="vhavyK" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+    </GROUP>
+    <GROUP id="{40AC99A2-73E3-E0CB-8240-F40C923F5F26}" name="Ressources">
+      <FILE id="KeDqXm" name="IR_KASKADE_AB_NEAR_0_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_AB_NEAR_0_EDITED.wav"/>
+      <FILE id="zsXZA9" name="IR_KASKADE_AB_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_AB_NEAR_180_EDITED.wav"/>
+      <FILE id="q35Abo" name="IR_KASKADE_AB_MED_0_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_AB_MED_0_EDITED.wav"/>
+      <FILE id="bQvOqH" name="IR_KASKADE_AB_MED_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_AB_MED_180_EDITED.wav"/>
+      <FILE id="qLtOaz" name="IR_KASKADE_AB_FAR_0_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_AB_FAR_0_EDITED.wav"/>
+      <FILE id="EF3DBR" name="IR_KASKADE_AB_FAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_AB_FAR_180_EDITED.wav"/>
+      <FILE id="oiVMFz" name="IR_KASKADE_AB_FAR_180alt_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_AB_FAR_180alt_EDITED.wav"/>
+      <FILE id="YVbVld" name="IR_KASKADE_XY_NEAR_0_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_XY_NEAR_0_EDITED.wav"/>
+      <FILE id="EAyOqh" name="IR_KASKADE_XY_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_XY_NEAR_180_EDITED.wav"/>
+      <FILE id="KfX1aA" name="IR_KASKADE_XY_NEAR_180alt_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_XY_NEAR_180alt_EDITED.wav"/>
+      <FILE id="wBvCdr" name="IR_KASKADE_XY_MED_0_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_XY_MED_0_EDITED.wav"/>
+      <FILE id="R9W1qN" name="IR_KASKADE_XY_MED_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_XY_MED_180_EDITED.wav"/>
+      <FILE id="tXrRfA" name="IR_KASKADE_XY_FAR_0_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_XY_FAR_0_EDITED.wav"/>
+      <FILE id="J5Axtp" name="IR_KASKADE_XY_FAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_XY_FAR_180_EDITED.wav"/>
+      <FILE id="jDx5O4" name="IR_KASKADE_MS_NEAR_0_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_MS_NEAR_0_EDITED.wav"/>
+      <FILE id="Uj0bDP" name="IR_KASKADE_MS_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_MS_NEAR_180_EDITED.wav"/>
+      <FILE id="q0wwEr" name="IR_KASKADE_MS_MED_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_MS_MED_180_EDITED.wav"/>
+      <FILE id="Ln2AtC" name="IR_KASKADE_MS_MED_0_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_MS_MED_0_EDITED.wav"/>
+      <FILE id="Wo0FgH" name="IR_KASKADE_MS_FAR_0_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_MS_FAR_0_EDITED.wav"/>
+      <FILE id="wWk6eF" name="IR_KASKADE_MS_FAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Kaskadenhalle/IR_EDITED/IR_KASKADE_MS_FAR_180_EDITED.wav"/>
+      <FILE id="QIlMOt" name="IR_KS3_AB_NEAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_AB_NEAR_0_EDITED.wav"/>
+      <FILE id="uOgRVx" name="IR_KS3_AB_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_AB_NEAR_180_EDITED.wav"/>
+      <FILE id="Gkse72" name="IR_KS3_XY_NEAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_XY_NEAR_0_EDITED.wav"/>
+      <FILE id="b2qIrA" name="IR_KS3_XY_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_XY_NEAR_180_EDITED.wav"/>
+      <FILE id="BgwwqQ" name="IR_KS3_AB_MED_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_AB_MED_0_EDITED.wav"/>
+      <FILE id="bqfEjI" name="IR_KS3_XY_MED_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_XY_MED_0_EDITED.wav"/>
+      <FILE id="PSowB7" name="IR_KS3_XY_MED_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_XY_MED_180_EDITED.wav"/>
+      <FILE id="Dg1QCx" name="IR_KS3_AB_MED_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_AB_MED_180_EDITED.wav"/>
+      <FILE id="MnxRHx" name="IR_KS3_AB_FAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_AB_FAR_0_EDITED.wav"/>
+      <FILE id="I413vQ" name="IR_KS3_XY_FAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_XY_FAR_0_EDITED.wav"/>
+      <FILE id="Y2wR77" name="IR_KS3_XY_FAR_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_XY_FAR_180_EDITED.wav"/>
+      <FILE id="wOXifH" name="IR_KS3_AB_FAR_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_AB_FAR_180_EDITED.wav"/>
+      <FILE id="XOwbgI" name="IR_KS3_MS_NEAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_MS_NEAR_0_EDITED.wav"/>
+      <FILE id="skDg9g" name="IR_KS3_MS_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_MS_NEAR_180_EDITED.wav"/>
+      <FILE id="Pp1Oc0" name="IR_KS3_MS_MED_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_MS_MED_180_EDITED.wav"/>
+      <FILE id="d41VFw" name="IR_KS3_MS_MED_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_MS_MED_0_EDITED.wav"/>
+      <FILE id="tzuU24" name="IR_KS3_MS_FAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_MS_FAR_0_EDITED.wav"/>
+      <FILE id="DdNv3P" name="IR_KS3_MS_FAR_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 3/IR_EDITED/IR_KS3_MS_FAR_180_EDITED.wav"/>
+      <FILE id="SxrvOP" name="IR_KS2_AB_NEAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_AB_NEAR_0_EDITED.wav"/>
+      <FILE id="j1K7SV" name="IR_KS2_AB_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_AB_NEAR_180_EDITED.wav"/>
+      <FILE id="QI2vEw" name="IR_KS2_AB_MED_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_AB_MED_0_EDITED.wav"/>
+      <FILE id="NoFKk8" name="IR_KS2_AB_MED_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_AB_MED_180_EDITED.wav"/>
+      <FILE id="rX9bDs" name="IR_KS2_AB_FAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_AB_FAR_0_EDITED.wav"/>
+      <FILE id="leF8r1" name="IR_KS2_AB_FAR_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_AB_FAR_180_EDITED.wav"/>
+      <FILE id="NadMR1" name="IR_KS2_XY_NEAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_XY_NEAR_0_EDITED.wav"/>
+      <FILE id="H9Dzu4" name="IR_KS2_XY_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_XY_NEAR_180_EDITED.wav"/>
+      <FILE id="R5hST4" name="IR_KS2_XY_MED_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_XY_MED_0_EDITED.wav"/>
+      <FILE id="JK77vM" name="IR_KS2_XY_MED_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_XY_MED_180_EDITED.wav"/>
+      <FILE id="orc4Sm" name="IR_KS2_XY_FAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_XY_FAR_0_EDITED.wav"/>
+      <FILE id="onVRNX" name="IR_KS2_XY_FAR_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_XY_FAR_180_EDITED.wav"/>
+      <FILE id="BbU43W" name="IR_KS2_MS_NEAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_MS_NEAR_0_EDITED.wav"/>
+      <FILE id="GpXag8" name="IR_KS2_MS_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_MS_NEAR_180_EDITED.wav"/>
+      <FILE id="QSGkqa" name="IR_KS2_MS_MED_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_MS_MED_180_EDITED.wav"/>
+      <FILE id="CCF6KB" name="IR_KS2_MS_MED_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_MS_MED_0_EDITED.wav"/>
+      <FILE id="XgvT61" name="IR_KS2_MS_FAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_MS_FAR_0_EDITED.wav"/>
+      <FILE id="niDs0d" name="IR_KS2_MS_FAR_180_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Konzertsaal 2/IR_EDITED/IR_KS2_MS_FAR_180_EDITED.wav"/>
+      <FILE id="JDZVhr" name="IR_TURM_XY_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_XY_NEAR_180_EDITED.wav"/>
+      <FILE id="r5QXTb" name="IR_TURM_XY_NEAR_0alt_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_XY_NEAR_0alt_EDITED.wav"/>
+      <FILE id="aAZnsX" name="IR_TURM_XY_NEAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Turm/IR_EDITED/IR_TURM_XY_NEAR_0_EDITED.wav"/>
+      <FILE id="BeVom7" name="IR_TURM_XY_MED_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_XY_MED_180_EDITED.wav"/>
+      <FILE id="lpeRY2" name="IR_TURM_XY_MED_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Turm/IR_EDITED/IR_TURM_XY_MED_0_EDITED.wav"/>
+      <FILE id="ixF77u" name="IR_TURM_XY_FAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_XY_FAR_180_EDITED.wav"/>
+      <FILE id="qtD5sr" name="IR_TURM_XY_FAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Turm/IR_EDITED/IR_TURM_XY_FAR_0_EDITED.wav"/>
+      <FILE id="vh3GVP" name="IR_TURM_MS_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_MS_NEAR_180_EDITED.wav"/>
+      <FILE id="QnYt0m" name="IR_TURM_MS_NEAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Turm/IR_EDITED/IR_TURM_MS_NEAR_0_EDITED.wav"/>
+      <FILE id="swcmWb" name="IR_TURM_MS_MED_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_MS_MED_180_EDITED.wav"/>
+      <FILE id="cMF58X" name="IR_TURM_MS_MED_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Turm/IR_EDITED/IR_TURM_MS_MED_0_EDITED.wav"/>
+      <FILE id="NrqS73" name="IR_TURM_MS_FAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_MS_FAR_180_EDITED.wav"/>
+      <FILE id="Pg6v8U" name="IR_TURM_MS_FAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Turm/IR_EDITED/IR_TURM_MS_FAR_0_EDITED.wav"/>
+      <FILE id="wTPds4" name="IR_TURM_AB_NEAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_AB_NEAR_180_EDITED.wav"/>
+      <FILE id="dTtjra" name="IR_TURM_AB_NEAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Turm/IR_EDITED/IR_TURM_AB_NEAR_0_EDITED.wav"/>
+      <FILE id="ta9QSE" name="IR_TURM_AB_MED_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_AB_MED_180_EDITED.wav"/>
+      <FILE id="LbmRkL" name="IR_TURM_AB_MED_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Turm/IR_EDITED/IR_TURM_AB_MED_0_EDITED.wav"/>
+      <FILE id="Nh0swa" name="IR_TURM_AB_FAR_180_EDITED.wav" compile="0"
+            resource="1" file="../Messungen/Turm/IR_EDITED/IR_TURM_AB_FAR_180_EDITED.wav"/>
+      <FILE id="sHLe0U" name="IR_TURM_AB_FAR_0_EDITED.wav" compile="0" resource="1"
+            file="../Messungen/Turm/IR_EDITED/IR_TURM_AB_FAR_0_EDITED.wav"/>
+      <FILE id="gx2aKJ" name="Background.png" compile="0" resource="1" file="Ressources/Background.png"/>
+      <FILE id="KHxLCS" name="ButtonRed.png" compile="0" resource="1" file="Ressources/ButtonRed.png"/>
+      <FILE id="BJwhDy" name="ButtonUp.png" compile="0" resource="1" file="Ressources/ButtonUp.png"/>
+      <FILE id="jKIQS7" name="ButtonDown.png" compile="0" resource="1" file="Ressources/ButtonDown.png"/>
+      <FILE id="fWXVuU" name="Knob_Shadow.png" compile="0" resource="1" file="Ressources/Knob_Shadow.png"/>
+      <FILE id="idTUnX" name="KnobDark.png" compile="0" resource="1" file="Ressources/KnobDark.png"/>
+      <FILE id="LAraCu" name="Knob.png" compile="0" resource="1" file="Ressources/Knob.png"/>
+      <FILE id="DFcpcb" name="Knobdot.png" compile="0" resource="1" file="Ressources/Knobdot.png"/>
+      <FILE id="S3peRY" name="Photo_Kaskadenhalle.png" compile="0" resource="1"
+            file="Ressources/Photo_Kaskadenhalle.png"/>
+      <FILE id="xAjHph" name="Photo_Konzertsaal2.png" compile="0" resource="1"
+            file="Ressources/Photo_Konzertsaal2.png"/>
+      <FILE id="TPIA71" name="Photo_Konzertsaal3.png" compile="0" resource="1"
+            file="Ressources/Photo_Konzertsaal3.png"/>
+      <FILE id="hZDYD6" name="Photo_Turm.png" compile="0" resource="1" file="Ressources/Photo_Turm.png"/>
+      <FILE id="lB77VM" name="ToniVerbIcon V2.png" compile="0" resource="1"
+            file="Ressources/ToniVerbIcon V2.png"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" smallIcon="lB77VM" bigIcon="lB77VM">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="ToniVerb"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="ToniVerb"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Applications/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Applications/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
