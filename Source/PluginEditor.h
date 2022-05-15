@@ -28,10 +28,10 @@ public:
     
     juce::ImageComponent backgroundImageComponent, roomImageComponent;
     
-    juce::Image imageKonzertsaal2 = juce::ImageCache::getFromMemory(BinaryData::Photo_Konzertsaal2_png, BinaryData::Photo_Konzertsaal2_pngSize);
-    juce::Image imageKonzertsaal3 = juce::ImageCache::getFromMemory(BinaryData::Photo_Konzertsaal3_png , BinaryData::Photo_Konzertsaal3_pngSize);
-    juce::Image imageTurm = juce::ImageCache::getFromMemory(BinaryData::Photo_Turm_png, BinaryData::Photo_Turm_pngSize);
-    juce::Image imageKaskadenhalle = juce::ImageCache::getFromMemory(BinaryData::Photo_Kaskadenhalle_png, BinaryData::Photo_Kaskadenhalle_pngSize);
+    juce::Image imageKonzertsaal2 = juce::ImageCache::getFromMemory(BinaryData::Photo_Konzertsaal2_jpg, BinaryData::Photo_Konzertsaal2_jpgSize);
+    juce::Image imageKonzertsaal3 = juce::ImageCache::getFromMemory(BinaryData::Photo_Konzertsaal3_jpg , BinaryData::Photo_Konzertsaal3_jpgSize);
+    juce::Image imageTurm = juce::ImageCache::getFromMemory(BinaryData::Photo_Turm_jpg, BinaryData::Photo_Turm_jpgSize);
+    juce::Image imageKaskadenhalle = juce::ImageCache::getFromMemory(BinaryData::Photo_Kaskadenhalle_jpg, BinaryData::Photo_Kaskadenhalle_jpgSize);
  
     //Togglebuttons
     juce::ToggleButton muteWetToggleButton, muteDryToggleButton, bypassToggleButton, aboutToggleButton, nearToggleButton, mediumToggleButton, farToggleButton, abToggleButton, xyToggleButton, msToggleButton;
